@@ -5,13 +5,12 @@
 </h1>
 
 <h3 align="center">
-  Personal dev page rodneyrinaldi.com
+  Personal wiki for dev page rodneyrinaldi.com
 </h3>
 
 <h1 align="center">
     <img alt="rodneyrinaldi" src="https://github.com/rodneyrinaldi/dev.rodneyrinaldi/blob/master/public/page.png" width="600px" />
 </h1>
-
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rodneyrinaldi/dev.rodneyrinaldi?color=%2304D361">
