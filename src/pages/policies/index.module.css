@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 0;
+}
+
+.row p {  
+  margin: 0;
+  padding: 0 5rem 2rem;
+  font-size: 1.06rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .row {
+    width: 88%;
+    flex-direction: column;
+    margin-top: .5rem;
+  }  
+  .row p {  
+    margin: 0;
+    padding: 0 1.4rem 2rem 1.4rem;
+    font-size: clamp(.4em, .6em + .5vw, 1.4em);
+  }
+}

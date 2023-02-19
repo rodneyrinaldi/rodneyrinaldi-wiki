@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 26px;
+
+  position: fixed;
+  z-index:100;
+  top:50%;
+  right: 0;
+}
+
+.wrapper a img {
+  fill: black;
+}
+
+.wrapper a img:hover {
+  cursor: pointer;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background:  rgba(253, 188, 188, 0.138);
+  border-color: rgba(78, 1, 1, 0.467);
+}
+
+.icon {
+  width: 60px;
+  padding: 10px;
+  fill: darkred;
+}
+
+
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin-right: 6px;
+  }
+
+  
+  .icon {
+    width: 40px;
+    padding: 5px;
+  }
+
+}

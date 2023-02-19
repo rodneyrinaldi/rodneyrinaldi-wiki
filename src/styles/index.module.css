@@ -1,0 +1,28 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 840px;
+  margin-top: 4rem;
+  padding: 20vh;
+}
+.grid p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    margin-top: 2rem;
+    padding: 0;
+    padding-top: 20vh;
+  }
+  .grid p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2;
+  }
+}

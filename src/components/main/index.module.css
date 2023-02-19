@@ -1,0 +1,17 @@
+.container {
+  min-height: 78vh;
+  padding: 0 0 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    min-height: 68vh;
+    margin: 0;
+    padding: 0;
+  }
+}
